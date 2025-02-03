@@ -27,7 +27,7 @@ To train the machine learning model on the iris dataset, run the following comma
 ```
 python model.py
 ```
-This will load the iris dataset, split it into training and testing sets, train a RandomForestClassifier, evaluate the model, and save the trained model to a file.
+This will load the iris dataset, split it into training and testing sets, train a RandomForestClassifier, evaluate the model, and save the trained model to a file. The script will only train the model if the `model.joblib` file does not exist.
 
 ## Deploying the Model using Streamlit
 
